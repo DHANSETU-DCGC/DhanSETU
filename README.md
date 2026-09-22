@@ -1,4 +1,4 @@
-# DhanSETU 🔐💸
+# DhanSETU 
 
 > **DhanSETU** is a privacy-focused fraud detection layer that identifies potentially scam-driven UPI payments using transaction patterns, user behavior, and risk signals. It provides real-time warnings and intervention before payment completion, helping users avoid social-engineering and Authorized Push Payment (APP) fraud.
 
@@ -8,7 +8,7 @@ Instead of replacing UPI, DhanSETU acts as a **context-aware security layer** th
 
 ---
 
-## 🚨 Problem
+##  Problem
 
 In an APP scam:
 1. A scammer contacts the victim.
@@ -20,18 +20,18 @@ In an APP scam:
 
 ---
 
-## 💡 Solution
+##  Solution
 
 DhanSETU combines multiple signals to create an explainable risk assessment before payment completion.
 
 ### Example signals
-- 🆕 New recipient
-- 💰 Unusually large transaction (>3x typical average)
-- ⚡ Multiple rapid transactions (Velocity limit)
-- 🕐 Unusual transaction timing (Late night hours)
-- 📞 Active telephone call detection (Social engineering / coercion risk)
-- 📊 Deviation from normal transaction behavior
-- 🚨 Prior scam reports and unverified recipient accounts
+-  New recipient
+-  Unusually large transaction (>3x typical average)
+-  Multiple rapid transactions (Velocity limit)
+-  Unusual transaction timing (Late night hours)
+- Active telephone call detection (Social engineering / coercion risk)
+-  Deviation from normal transaction behavior
+-  Prior scam reports and unverified recipient accounts
 
 Risk levels:
 
@@ -130,7 +130,7 @@ The application includes an explainable rule-based scoring engine (`RiskEngine`)
 
 ---
 
-## 🧰 Technology Stack
+##  Technology Stack
 
 - **Framework**: Flutter 3.x / Dart 3.x (Null-Safety)
 - **State Management**: Riverpod 3 (`Notifier` / `NotifierProvider`)
@@ -141,7 +141,7 @@ The application includes an explainable rule-based scoring engine (`RiskEngine`)
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. **Clone the repository**:
    ```bash
